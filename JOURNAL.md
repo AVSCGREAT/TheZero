@@ -4,7 +4,8 @@ author: "AVSC"
 description: "Offline GPS Navigation & Logger using RPI"
 created_at: "2024-05-25"
 ---
-**May 27 : Planning**
+###May 27 : Planning
+
 (A rugged, offline GPS device for hikers, bikers, and adventurers.)
 So the thing was I needed a GPS logger for my cycling expeditions (I go like 50kms) and I didn't have a personal phone...so I decided to build the PiTracker
 
