@@ -7,6 +7,7 @@ created_at: "2024-05-25"
 <h1>May 27 : Planning</h1>
 
 (A rugged, offline GPS device for hikers, bikers, and adventurers.)
+
 So the thing was I needed a GPS logger for my cycling expeditions (I go like 50kms) and I didn't have a personal phone...so I decided to build the PiTracker
 
 *Sat down and decided on the key features:*
