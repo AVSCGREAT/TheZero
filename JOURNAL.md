@@ -4,7 +4,7 @@ author: "AVSC"
 description: "Offline GPS Navigation & Logger using RPI"
 created_at: "2024-05-25"
 ---
-###May 27 : Planning
+<h1>May 27 : Planning</h1>
 
 (A rugged, offline GPS device for hikers, bikers, and adventurers.)
 So the thing was I needed a GPS logger for my cycling expeditions (I go like 50kms) and I didn't have a personal phone...so I decided to build the PiTracker
@@ -29,5 +29,5 @@ RPI 5 (4gb) / RPI 4 (4gb)
 
 3.5in TFT Touchscreen for RPI
 
-*Time Spent ~ 2hrs*
+**Time Spent ~ 2hrs**
 
