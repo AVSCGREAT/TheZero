@@ -44,6 +44,9 @@ Designed it in *TinkerCAD*(lol), and exported the STL (attached below). The encl
 - Mounting space for GPS module and battery (will do that next) 
 - Simple slide or screw-together design (haven’t finalized yet)
 
+**3D Model preview**
+<img width="463" alt="image" src="https://github.com/user-attachments/assets/0910d30a-83c3-4fb1-a8bc-5f29a89ad79d" />
+
 **Attached:**  
 [`rpi 3b+ case.stl`](./rpi%203b%2B%20case.stl)
 
