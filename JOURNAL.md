@@ -45,6 +45,7 @@ Designed it in *TinkerCAD*(lol), and exported the STL (attached below). The encl
 - Simple slide or screw-together design (haven’t finalized yet)
 
 **3D Model preview**
+
 <img width="463" alt="image" src="https://github.com/user-attachments/assets/0910d30a-83c3-4fb1-a8bc-5f29a89ad79d" />
 
 **Attached:**  
@@ -56,4 +57,50 @@ Modify to fit extra parts and airflow — might tweak the tolerances and screen 
 Super hyped to see it come together physically (virtually) soon!
 
 **Time Spent ~ 2.5hrs** 
+
+
+## May 28: Wiring Diagram in Fritzing 
+
+*Session 2*
+
+Used Fritzing today to map out all the wiring for the PiTracker. Super helpful to have everything visual before starting to connect real hardware.
+
+**Wiring (will add Fritzig or smthing later)**:
+- Power:
+
+Raspberry Pi powered via micro USB
+
+TFT and GPS powered from Pi's 5V and GND
+
+- 3.5" SPI TFT Display (Waveshare):
+
+MOSI → GPIO10 (Physical Pin 19)
+
+MISO → GPIO9 (Pin 21) (not always used for display only)
+
+SCLK → GPIO11 (Pin 23)
+
+CS → Any free GPIO (e.g. GPIO8, Pin 24)
+
+DC (D/C) → Any GPIO (e.g. GPIO25, Pin 22)
+
+RESET → Any GPIO (e.g. GPIO27, Pin 13)
+
+VCC → 5V (Pin 2 or 4)
+
+GND → GND (Pin 6 or any GND)
+
+- NEO-6M GPS Module:
+
+VCC → 5V (Pin 2 or 4)
+
+GND → GND (Pin 6 or any GND)
+
+TX → GPIO15 (UART RX, Pin 10)
+
+RX → GPIO14 (UART TX, Pin 8)
+
+**Next step:** Fritziggg!.
+
+**Time Spent ~ 1.5hrs** 
 
