@@ -30,5 +30,27 @@ RPI 5 (4gb) / RPI 4 (4gb)
 
 3.5in TFT Touchscreen for RPI
 
-**Time Spent ~ 2hrs**
+**Time Spent ~ 2hrs** 
+
+## May 26: Modeled the First PiTracker Enclosure
+
+Finished the first version of the 3D enclosure for the PiTracker today!
+
+Designed it in *TinkerCAD*(lol), and exported the STL (attached below). The enclosure is made to fit the Raspberry Pi 3B+ along with the 3.5" TFT screen on top.
+
+###  Design Highlights:
+- Cutouts for USB, HDMI, audio jack, and SD card  
+- Slots for airflow (still might need more)  
+- Mounting space for GPS module and battery (will do that next) 
+- Simple slide or screw-together design (haven’t finalized yet)
+
+**Attached:**  
+[`rpi 3b+ case.stl`](./rpi%203b%2B%20case.stl)
+
+**Next up:**  
+Modify to fit extra parts and airflow — might tweak the tolerances and screen angle after that.
+
+Super hyped to see it come together physically (virtually) soon!
+
+**Time Spent ~ 2.5hrs** 
 
