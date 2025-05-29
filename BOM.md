@@ -3,7 +3,7 @@
 | Item                                      | Qty | Estimated Cost (USD) | Notes |
 |-------------------------------------------|-----|-----------------------|-------|
 | **Raspberry Pi 3B+**                      | 1   | $35–$45               | Core processor |
-| **3.5" SPI TFT Display (Waveshare)**      | 1   | $12–$18               | SPI interface |
+| **3.5" SPI TFT Display (Waveshare)**      | 1   | $12–$18               | SPI interface |  --  [https://robu.in/product/3-5-touch-screen-lcd-raspberry-pi/](url)
 | **NEO-6M GPS Module**                     | 1   | $6–$10                | With built-in antenna |
 | **Micro USB Cable**                       | 1   | $1–$3                 | For power |
 | **5V 2.5A+ Power Supply / USB Power Bank**| 1   | $8–$20                | Must be reliable |
