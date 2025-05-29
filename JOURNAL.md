@@ -144,6 +144,8 @@ This should be the **final enclosure v1** unless the print throws surprises.
 
 ## May 29 : Wrote Out README
 
+**Session 2**
+
 Sat down and wrote the entire README (mostly complete)
 
 **Time Spent ~ 1.5hrs**
