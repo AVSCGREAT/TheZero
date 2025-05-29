@@ -104,3 +104,42 @@ RX → GPIO14 (UART TX, Pin 8)
 
 **Time Spent ~ 1.5hrs** 
 
+ ## May 27: Finalized the PiTracker Enclosure for Pi 4B**
+  
+**Session 1** 
+
+Big session today — I scrapped the original Pi 3B+ design and rebuilt the entire enclosure from scratch to support the **Raspberry Pi 4B**. 
+
+The new layout took a while to get right, but I’m finally happy with the design!
+
+### Final Design Features:
+- Custom fit for the **Pi 4B**, accounting for changes in port positions (USB-C, dual micro HDMI, etc.)
+- Adjusted dimensions and internal supports to fit the new board layout
+- Cutouts for:
+  - USB-C power
+  - Dual micro HDMI
+  - Audio jack
+  - USB ports + Ethernet
+  - microSD card
+- Top shell redesigned to hold the **3.5" TFT screen** securely and flush
+- Side vent slots for airflow (might add fan mount in v2)
+- GPS module mount added inside with wire clearance
+- Snap-fit design for flexibility during assembly
+- Routed space internally for jumper wire clearance and powerbank mount
+
+  **3D Model preview**
+![image](https://github.com/user-attachments/assets/8bcbb95b-25e6-4734-827f-968d2745546c)
+
+**Attached**
+[https://csg.tinkercad.com/downloadExport?id=68dd55a4-21b2-4f8c-a2d9-896e78c4fcb8.stl&fileName=rpi%204b%20case.stl](url)
+
+### Challenges:
+- The Pi 4B’s dual HDMI and USB-C port placement forced a full layout rethink
+- Making sure the screen didn’t block access to ports or GPIO pins took multiple test alignments
+- Had to recheck all mounting holes and tolerances — this version should be **print-ready**
+ 
+This should be the **final enclosure v1** unless the print throws surprises.
+
+**Time Spent ~ 4 hrs** 
+
+
