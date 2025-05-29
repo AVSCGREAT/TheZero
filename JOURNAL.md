@@ -12,7 +12,7 @@ So the thing was I needed a GPS logger for my cycling expeditions (I go like 50k
 
 *Sat down and decided on the key features:*
 
-Real-time location from USB GPS module.
+Real-time location from GPS module.
 
 Offline maps displayed on the touchscreen.
 
@@ -59,7 +59,7 @@ Super hyped to see it come together physically (virtually) soon!
 **Time Spent ~ 2.5hrs** 
 
 
-## May 28: Wiring Diagram in Fritzing 
+## May 29: Wiring Diagram in Fritzing 
 
 *Session 2*
 
@@ -142,4 +142,9 @@ This should be the **final enclosure v1** unless the print throws surprises.
 
 **Time Spent ~ 4 hrs** 
 
+## May 29 : Wrote Out README
+
+Sat down and wrote the entire README (mostly complete)
+
+**Time Spent ~ 1.5hrs**
 
