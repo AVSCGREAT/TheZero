@@ -1,9 +1,9 @@
-## The Zero PiTracker
+# The Zero PiTracker
 ---
 
 # PiTracker — Offline GPS Navigation & Logger
 
-![PiTracker Banner](https://user-images.githubusercontent.com/placeholder/pi_tracker_banner.png)
+![92cb42b8-32b3-486b-885b-21562abaaab7](https://github.com/user-attachments/assets/11650be9-71b7-41f9-9214-9fffb1c25df0)
 *Portable GPS tracker with offline map display, route logging, and touchscreen UI.*
 
 ---
