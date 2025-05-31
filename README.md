@@ -12,6 +12,9 @@
 
 PiTracker is a portable GPS navigation and logging device built on the Raspberry Pi 4. It combines a Neo-6M GPS module, a 3.5" TFT touchscreen, and a power bank to provide real-time offline navigation and route tracking. The whole system fits neatly inside a custom 3D-printed enclosure, making it ideal for hiking, biking, or outdoor adventures where internet is unavailable.
 
+![0](https://github.com/user-attachments/assets/8a0d5888-3d48-40b7-9e9b-2edd6770722a)
+[https://www.tinkercad.com/things/7ml9naQlg1D-rpi-4b-case?sharecode=82QmYhvzEoeTG61scX8_8p--__eQaEcsFCr23i5QqRg](url)
+
 ---
 
 ## Features
