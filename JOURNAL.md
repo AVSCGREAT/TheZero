@@ -104,7 +104,7 @@ RX → GPIO14 (UART TX, Pin 8)
 
 **Time Spent ~ 1.5hrs** 
 
- ## May 27: Finalized the PiTracker Enclosure for Pi 4B**
+ ## May 27: Finalized the PiTracker Enclosure for Pi 4B
   
 **Session 1** 
 
@@ -149,4 +149,9 @@ This should be the **final enclosure v1** unless the print throws surprises.
 Sat down and wrote the entire README (mostly complete)
 
 **Time Spent ~ 1.5hrs**
+
+## May 30 : Wrote down some basic code for software - should work
+
+
+
 
