@@ -136,7 +136,7 @@ python3 pitracker.py
 ## 3D Printed Case
 
 * The enclosure is designed in TinkerCAD, tailored for all components.
-* STL files are included in the `/3d-print` directory.
+* STL files are included in the main as `rpi 4b case.stl` .
 * Features include:
 
   * Secure mounting points for Pi and screen
