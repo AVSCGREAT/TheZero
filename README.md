@@ -160,7 +160,7 @@ python3 pitracker.py
 ## Future Improvements
 
 * Add power management PCB with battery fuel gauge
-* Integrate environmental sensors (temp, humidity) - prob. not
+* Integrate more features into firmware
 * Add wireless sync to mobile app
 * Improve UI with smoother map interactions
 
@@ -171,7 +171,7 @@ python3 pitracker.py
 * Thanks to the Raspberry Pi Foundation for the amazing hardware
 * OpenStreetMap community for freely available maps
 * GoodTFT for touchscreen drivers and support
-* Hackclub & @alexrnn for the oppurtunity
+* Hackclub & @alexrnn at Highway to Hardware <p><s>Hell</s>.</p> for the oppurtunity
 ---
 
 ## Contact
@@ -180,4 +180,5 @@ For questions or contributions, please open an issue or contact me at \[[avs.cha
 
 ---
 
+# Thnx Guys pls approve
 
