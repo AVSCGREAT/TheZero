@@ -4,7 +4,7 @@ author: "AVSC"
 description: "Offline GPS Navigation & Logger using RPI"
 created_at: "2024-05-25"
 ---
-<h1>May 27 : Planning</h1>
+## May 27 : Planning
 
 (A rugged, offline GPS device for hikers, bikers, and adventurers.)
 
@@ -61,7 +61,7 @@ Super hyped to see it come together physically (virtually) soon!
 
 ## May 29: Wiring Diagram in Fritzing 
 
-*Session 2*
+**Session 2**
 
 Used Fritzing today to map out all the wiring for the PiTracker. Super helpful to have everything visual before starting to connect real hardware.
 
@@ -100,7 +100,7 @@ TX → GPIO15 (UART RX, Pin 10)
 
 RX → GPIO14 (UART TX, Pin 8)
 
-**Next step:** Fritziggg!.
+**Next step:** Fritziggg (maybeeee)!.
 
 **Time Spent ~ 1.5hrs** 
 
@@ -150,8 +150,83 @@ Sat down and wrote the entire README (mostly complete)
 
 **Time Spent ~ 1.5hrs**
 
-## May 30 : Wrote down some basic code for software - should work
+## May 30 : Wrote down some core code for firmware - should work
+
+Finally started on the actual firmware code for PiTracker today — wrote most of the core logic in `pitracker.py`. The goal was to get the basic GPS + display pipeline working, along with a touch UI and some basic logging.
+
+---
+
+### What got done:
+
+#### GPS Tracking (NEO-6M)
+- Connected to GPS using the `gpsd` daemon.
+- Used Python’s `gps` module to poll coordinates.
+- Added a fallback screen while GPS is still acquiring a fix (i.e. `packet.mode < 2`).
+- GPS data gets logged to an in-memory trace array and written to GPX (see below).
+
+####  Heading Display
+- Didn’t use a magnetometer yet — mocked heading by calculating the direction of movement from GPS points.
+- Displays a live heading arrow on the screen.
+
+####  Map Tile Viewer
+- Created a basic map rendering system using local OpenStreetMap tiles.
+- Tiles are pulled from a `tiles/` folder, not downloaded in real-time (offline-only).
+- Converts lat/lon to tile coordinates and draws a zoomed grid around the current position.
+- Simple projection from fixed "origin" coordinates (Delhi).
+
+####  Touchscreen UI (3.5" SPI TFT)
+- Built a basic UI with `pygame` that includes:
+  - Start and Stop buttons (for logging)
+  - Zoom In / Zoom Out controls
+- Touch input handled using `pygame.event.get()` + bounding box checks.
+- Added button highlight feedback and status display.
+
+####  Waypoints + Routing (early stage)
+- Static list of waypoints defined manually for now.
+- Distance to each waypoint is tracked.
+- When within a threshold (e.g. 10m), voice prompt triggers with waypoint name.
+
+####  Voice Prompts
+- Used `pyttsx3` to speak events (e.g., “Waypoint Reached”).
+- Kept phrases short to avoid blocking main thread — async not implemented yet.
+
+####  GPX Logging
+- When user presses “Start,” a new GPX file is created in a `logs/` folder.
+- Logs a new <trkpt> entry every second with lat/lon + timestamp.
+- File is safely closed on “Stop” or clean exit.
+
+---
+
+### Challenges:
+
+| Problem | Fix |
+|--------|------|
+| GPS takes ~30s to lock sometimes | Added a waiting screen and retry loop |
+| TFT screen resolution is small (480x320) | Compressed UI layout and used smaller fonts |
+| `pyttsx3` voice synthesis freezes UI sometimes | Using minimal prompts, async fix planned |
+| No real routing yet | Stubbed route functions + waypoint check logic |
+
+---
+
+### What I've managed till now:
+- Firmware can now:
+  - Read GPS
+  - Show live position on a map
+  - Log trace in GPX
+  - Display heading
+  - Show waypoint progress
+  - Handle basic touch UI
+  - Speak waypoint prompts
+
+---
+
+### Future Plan:
+- Add offline route calculation with `pyroutelib3`
+- Dynamic destination selection
+- Draw full route path as an overlay
+- Add arrow indicators for upcoming turns
+- Improve performance + voice threading
 
 
-
+**Time Spent ~ 4hrs**
 
