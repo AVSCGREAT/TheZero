@@ -30,3 +30,8 @@ GND → GND (Pin 6 or any GND)
 TX → GPIO15 (UART RX, Pin 10)
 
 RX → GPIO14 (UART TX, Pin 8)
+
+### TFT Display Driver - 
+To install the driver, please follow the instructions given on this [http://www.lcdwiki.com/3.5inch_RPi_Display](url) .
+
+
