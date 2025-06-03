@@ -66,7 +66,7 @@ Super hyped to see it come together physically (virtually) soon!
 
 Used Fritzing today to map out all the wiring for the PiTracker. Super helpful to have everything visual before starting to connect real hardware.
 
-**Wiring (will add Fritzig or smthing later)**:
+**Wiring Plan**:
 - Power:
 
 Raspberry Pi powered via micro USB
@@ -101,7 +101,8 @@ TX → GPIO15 (UART RX, Pin 10)
 
 RX → GPIO14 (UART TX, Pin 8)
 
-**Next step:** Fritziggg (maybeeee)!.
+![download (1)](https://github.com/user-attachments/assets/ab37a842-9e4b-410b-8984-3aa02856b8e5)
+
 
 **Time Spent ~ 1.5hrs** 
 
