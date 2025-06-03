@@ -235,3 +235,5 @@ Finally started on the actual firmware code for PiTracker today — wrote most o
 **NOTE** - If you can't find a 5V 3A Powerbank then use a 7.4V 3A Li-Ion Battery Pack [https://robu.in/product/pro-range-18650-li-ion-2500mah-7-4v-2s1p-protected-battery-pack-3c/](url) and a 5V 2.5A STEP-DOWN D24V22F5 (like below)
 
 ![OIP](https://github.com/user-attachments/assets/a2bf0c0c-8aa1-413c-b2bf-19cb5ca8a30e)
+
+OR THIS WORKS GOODDDD - [https://www.amazon.in/Lithium-Battery-Charging-Raspberry-ESP8266/dp/B099S18W4Z?th=1](url)
