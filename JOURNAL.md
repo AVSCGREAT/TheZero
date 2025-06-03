@@ -9,7 +9,7 @@ total time spent: "~15hrs"
 
 (A rugged, offline GPS device for hikers, bikers, and adventurers.)
 
-So the thing was I needed a GPS logger for my cycling expeditions (I go like 50kms) and I didn't have a personal phone...so I decided to build the PiTracker
+So the thing was I needed a GPS logger for my cycling expeditions (I go like 50kms normally) and I didn't have a personal phone...so I decided to build the PiTracker
 
 *Sat down and decided on the key features:*
 
@@ -232,3 +232,6 @@ Finally started on the actual firmware code for PiTracker today — wrote most o
 
 **Time Spent ~ 4hrs**
 
+**NOTE** - If you can't find a 5V 3A Powerbank then use a 7.4V 3A Li-Ion Battery Pack [https://robu.in/product/pro-range-18650-li-ion-2500mah-7-4v-2s1p-protected-battery-pack-3c/](url) and a 5V 2.5A STEP-DOWN D24V22F5 (like below)
+
+![OIP](https://github.com/user-attachments/assets/a2bf0c0c-8aa1-413c-b2bf-19cb5ca8a30e)
