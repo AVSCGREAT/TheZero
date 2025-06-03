@@ -1,4 +1,4 @@
-*One thing to note - I have to create a PCB for 5V 3A Buck Converter for the RPi so yeah thats the last thing I'll do. ( Its optional but I plan to do it just for the expirience*
+*One thing to note - I have to create a PCB for 5V 3A Buck Converter for the RPi so yeah that's the last thing I'll do. (: Its optional but I plan to do it just for the expirience*
 
 ---
 # The Zero PiTracker
