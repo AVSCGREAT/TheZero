@@ -60,11 +60,9 @@ Super hyped to see it come together physically (virtually) soon!
 **Time Spent ~ 2.5hrs** 
 
 
-## May 29: Wiring Diagram in Fritzing 
+## May 29: Wiring Diagram
 
 **Session 2**
-
-Used Fritzing today to map out all the wiring for the PiTracker. Super helpful to have everything visual before starting to connect real hardware.
 
 **Wiring Plan**:
 - Power:
@@ -75,21 +73,7 @@ TFT and GPS powered from Pi's 5V and GND
 
 - 3.5" SPI TFT Display (Waveshare):
 
-MOSI → GPIO10 (Physical Pin 19)
-
-MISO → GPIO9 (Pin 21) (not always used for display only)
-
-SCLK → GPIO11 (Pin 23)
-
-CS → Any free GPIO (e.g. GPIO8, Pin 24)
-
-DC (D/C) → Any GPIO (e.g. GPIO25, Pin 22)
-
-RESET → Any GPIO (e.g. GPIO27, Pin 13)
-
-VCC → 5V (Pin 2 or 4)
-
-GND → GND (Pin 6 or any GND)
+CONNECT LCD PINS TO GPIO 1 --> GPIO 26 ON RPI (PUSH IN)
 
 - NEO-6M GPS Module:
 
@@ -101,7 +85,8 @@ TX → GPIO15 (UART RX, Pin 10)
 
 RX → GPIO14 (UART TX, Pin 8)
 
-![download (1)](https://github.com/user-attachments/assets/ab37a842-9e4b-410b-8984-3aa02856b8e5)
+<img width="482" alt="image" src="https://github.com/user-attachments/assets/37b1bdff-eb56-4c36-a7e8-2a62d9c28def" />
+
 
 
 **Time Spent ~ 1.5hrs** 
